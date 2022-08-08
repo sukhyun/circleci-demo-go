@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - 1.18.x
+  
+branches:
+  only:
+    - travis-ci-project-setup
+
+script: 
+  - go build
